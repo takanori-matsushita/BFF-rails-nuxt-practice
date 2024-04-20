@@ -7,6 +7,7 @@ import {
 } from "@remix-run/react";
 import styles from "./globals.css?url"
 import { LinksFunction } from "@remix-run/node";
+import 'remixicon/fonts/remixicon.css'
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: styles },
